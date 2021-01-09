@@ -1,0 +1,47 @@
+{% extends 'sa/base.html' %}
+{% block title %} Profile {% endblock %}
+{% block content %}
+{% load static %}
+<div class="container mt-4">
+  <div class="jumbotron ml-auto">
+
+<div class="col mt-3" style="margin-left: 25%;">
+    <div class="container">
+    	<div class="card" style="width: 16rem;">
+  <img src="{% static 'images/iphone.jpg' %}" class="card-img-top" alt="...">
+  <!--<div class="card-body">
+    <h5 class="card-title"><B>APPLE</B></h5>
+    <p class="price"><i style="font-size:24px" class="fa">&#xf156;</i>80,999</p>
+    <h5 class="card-text">RAM:128GB</h5>
+    <h5 class="card-text">ROM:32GB</h5>
+    <h5 class="card-text">IOS 10</h5>-->
+    <!--<p class="card-text">:16GB</p>-->
+    <!--<a href="{% url 'car' %}" class="btn btn-primary" style="margin-top: 100px;">GetNow</a>-->
+  </div>
+
+    </div>
+    <h5><B style="margin-left: 10%;">Iphone Info</B></h5><br>
+   <!-- <h6 style="margin-left: 10px;">The iPhone is a line of smartphones designed and marketed by Apple Inc. that use Apple's iOS mobile operating system. The first-generation iPhone was announced by former Apple CEO Steve Jobs on January 9, 2007. ... The iPhone has a user interface built around a multi-touch screen.
+Parent product line: Apple iPhone 8
+Category: Smartphone, Mobile phone
+Producer: Apple, Cisco Systems, Comwave, Gr...
+Inventor: Apple, Jobs</h6></ul>-->
+<div style="margin-left: 1px;"><h6 style="margin-left: 10px;">Apple iPhone Full Specifications</h6>
+<ul><p class="price"><i style="font-size:24px" class="fa">&#xf156;</i>80,999</p></ul>
+    <h5 class="card-text">RAM:128GB</h5>
+    <h5 class="card-text">ROM:32GB</h5>
+    <h5 class="card-text">IOS 10</h5>
+<div style="margin-right: 30px;">
+<ul style="text-align: left;" class="ml-auto"><li>General. Brand. Apple. Model. iPhone. ...</li>
+<li>Display. Screen size (inches) 3.50. Touchscreen. Yes. ...</li>
+<li>Hardware. Processor. 412 MHz one-core. RAM. 128MB. ...</li>
+<li>Camera. Rear camera. 2-megapixel. Front camera. No.</li>
+<li>Software. Operating system. iOS 3.</li>
+<li>Connectivity. Wi-Fi. Yes. GPS. No. ...</li>
+<li>Sensors. Compass/ Magnetometer. Yes. Proximity sensor.</li></ul></di>
+</div>
+</div>
+</div>
+</div>
+
+{% endblock %}

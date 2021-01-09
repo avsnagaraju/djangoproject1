@@ -1,0 +1,31 @@
+{% extends 'sa/base.html' %}
+{% block title %} EMobile {% endblock %}
+{% block content %}
+{% load static %}
+<div class="container">
+	<div class="card col-md-7 mt-3 mx-auto">
+		<h2 class="bg-warning text-white text-center mx-2 mt-2 p-2">EMobile Details</h2>
+		<div class="card-body">
+			<a href="{% url 'crw'%}" class="btn btn-sm btn-success p-2" style="float: right;">Add</a>
+			<table class="table mt-2 table-hover">
+				<tr class="bg-dark text-white border rounded">
+					<th>sno</th>
+					<th>date</th>
+					<th>descri</th>
+					<th>status</th>
+					<th>action</th>
+				</tr>
+				{% for m in y %}
+				<tr>
+					<td>{{forloop.counter}}</td>
+					<td>{{m.date}}</td>
+					<td>{{m.description}}</td>
+					<td>{{m.mobilestatus}}</td>
+					<td><a href="#" class="btn btn-danger">Delete</a></td>
+				</tr>
+				{% endfor %}
+			</table>
+		</div>
+	</div>
+</div>
+{% endblock %}

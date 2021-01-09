@@ -1,0 +1,168 @@
+{% extends 'sa/base.html' %}
+{% block title %} Profile {% endblock %}
+{% block content %}
+
+<div class="container">
+	<div class="row mt-3 card-columns">
+		
+			<div class="card" style="width: 16rem;">
+  <img src="images/iphone.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   <a href="{% url 'iph' %}"> <h5 class="card-title"><B>BRAND APPLE</B></h5>
+    <p class="price"><i style="font-size:24px" class="fa">&#xf156;</i> 80,999</p>
+    <h5 class="card-text">RAM:128GB</h5>
+    <h5 class="card-text">ROM:32GB</h5>
+    <h5 class="card-text">OS:IOS 10</h5></a>
+    <a href="{% url 'car' %}" class="btn btn-primary" style="margin-top: 100px;">GetNow</a>
+  </div>
+</div>
+			<div class="card" style="width: 16rem;">
+  <img src="images/motorola.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <a href="{% url 'iph' %}"><h5 class="card-title"><B>MOTOROLA</B></h5>
+    <p class="card-text"><i style="font-size:24px" class="fa">&#xf156;</i>30,999</p>
+    <h5 class="card-text">RAM:16GB</h5>
+    <h5 class="card-text">ROM:8GB</h5>
+    <h5 class="card-text">OS:IOS 14</h5></a>
+    <a href="{% url 'car' %}" class="btn btn-primary mt-8" class="mt-5" style="margin-top: 25px;">GetNow</a>
+  </div>
+</div>
+			<div class="card" style="width: 16rem;">
+  <img src="images/nokia.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <a href="{% url 'iph' %}"><h5 class="card-title"><B>NOKIA</B></h5>
+    <p class="card-text"><i style="font-size:24px" class="fa">&#xf156;</i>17,000s</p>
+    <h5 class="card-text">RAM:64GB</h5>
+    <h5 class="card-text">ROM:16GB</h5>
+    <h5 class="card-text">OS:IOS 14</h5></a>
+    <a href="{% url 'car' %}" class="btn btn-primary" style="margin-top: 45px;">GetNow</a>
+  </div>
+</div>
+			<div class="card" style="width: 18rem;">
+  <img src="images/mi.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <a href="{% url 'iph' %}"><h5 class="card-title"><B>REDMI</B></h5>
+    <p class="card-text"><i style="font-size:24px" class="fa">&#xf156;</i>
+25,999/-</p>
+    <h5 class="card-text">RAM:128GB</h5>
+    <h5 class="card-text">ROM:32GB</h5>
+    <h5 class="card-text">OS:IOS 11</h5></a>
+    <a href="{% url 'car' %}" class="btn btn-primary" style="margin-top: 35px;">GetNow</a>
+  </div>
+</div>
+			
+		</div>
+	</div>
+	
+	<div class="container" class="ml-1">
+		<div class="row mt-3 card-columns" class="ml-1">
+			
+<div class="card" style="width: 16rem;">
+	<img src="images/mi1.jpg" class="card-img-top" alt="...">
+	<div class="card-body">
+		<a href="{% url 'iph' %}"><h5 class="card-title"><B>REALME</B></h5>
+		<p class="card-text"><i style="font-size:24px" class="fa">&#xf156;</i>
+21,999/-</p>
+		<h5 class="card-text">RAM:128GB</h5>
+    <h5 class="card-text">ROM:16GB</h5>
+    <h5 class="card-text">OS:IOS 14</h5></a>
+		<a href="{% url 'car' %}" class="btn btn-primary" style="margin-top: 38px;">BuyNow</a>
+	</div>
+</div>
+<div class="card" style="width: 16rem;">
+  <img src="images/xiaomi.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <a href="{% url 'iph' %}">  <h5 class="card-title" style="margin-top: 25px;"><B>VIVO</B></h5>
+    <p class="card-text"><i style="font-size:24px" class="fa">&#xf156;</i>
+10,999/-</p>
+    <h5 class="card-text">RAM:128GB</h5>
+    <h5 class="card-text">ROM:16GB</h5>
+    <h5 class="card-text">OS:IOS 12</h5></a>
+    <a href="{% url 'car' %}" class="btn btn-primary" style="margin-top: 43px;">BuyNow</a>
+  </div>
+</div>
+<div class="card" style="width: 16rem;">
+  <img src="images/samsung.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+ <a href="{% url 'iph' %}">   <h5 class="card-title" style="margin-top: 35px;"><B>SAMSUNG</B></h5>
+    <p class="card-text"><i style="font-size:24px" class="fa">&#xf156;</i>
+19,999/-</p>
+    <h5 class="card-text">RAM:128GB</h5>
+    <h5 class="card-text">ROM:16GB</h5>
+    <h5 class="card-text">OS:IOS 14</h5></a>
+    <a href="{% url 'car' %}" class="btn btn-primary"  style="margin-top: 50px;">BuyNow</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="images/mi4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+ <a href="{% url 'iph' %}">   <h5 class="card-title"><B>OPPO</B></h5>
+    <p class="card-text"><i style="font-size:24px" class="fa">&#xf156;</i>
+15,999/-</p>
+    <h5 class="card-text">RAM:16GB</h5>
+    <h5 class="card-text">ROM:16GB</h5>
+    <h5 class="card-text">OS:IOS 14</h5></a>
+    <a href="{% url 'car' %}" class="btn btn-primary" style="margin-top: 40px;">BuyNow</a>
+  	</div>
+	</div>
+	</div>
+		</div>
+	{% load static %}
+<footer class="footer" style="padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;">
+	     <div class="container">
+	        <div class="row">
+	            <div class="col-md-6">
+	                <h5 class="text-white"><i class="fa fa-mobile" aria-hidden="true"></i> Book Mobiles</h5>
+	                <div class="row">
+	                    <div class="col-4">
+	                        <ul class="list-unstyled">
+	                            <li><a href="{% url 'hm' %}"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+	                            <li><a href="{% url 'ab' %}"><i class="fa fa-address-book-o" aria-hidden="true"></i>About</a></li>
+	                            <li><a href="{% url 'ct' %}"><i class="fa fa-phone" aria-hidden="true"></i>ContactUs</a></li>
+	                        </ul>
+	                    </div>
+	                    <div class="col-5">
+	                        <ul class="list-unstyled">
+                            <li><a href="{% url 'reg' %}">Register</a></li>
+                            <li><a href="{% url 'lgn' %}">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="nav">
+         
+<li class="nav-item"><a href="https://www.facebook.com/HolidayInn" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="https://twitter.com/HolidayInn" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="https://www.instagram.com/holidayinn/" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+
+<p class="ml-3">  <h5><i class="text-white">OurEMIPartners</i></h5><span><img border="0" src="//martjackstorage.blob.core.windows.net/in-resources/166a6316-05dd-4978-9fb3-d23db157ffca/Images/userimages/ft_bajajfinserv_img.png" class="ml-3" /></span> <span><img border="0" src="//martjackstorage.blob.core.windows.net/in-resources/166a6316-05dd-4978-9fb3-d23db157ffca/Images/userimages/ft_hdfcbank_img.png" class="ml-3" /></span></p>
+                </ul>
+                
+
+<p class="paymenttwo" style="padding:5px 0 5px; margin:0;"><h5><i class="text-white">Payment Options</i></h5><span><img border="0" src="//martjackstorage.blob.core.windows.net/in-resources/166a6316-05dd-4978-9fb3-d23db157ffca/Images/userimages/ft_mastercard_img.png" /></span> <span><img border="0" src="//martjackstorage.blob.core.windows.net/in-resources/166a6316-05dd-4978-9fb3-d23db157ffca/Images/userimages/ft_americanexpress_img.png" /></span> <span><img border="0" src="//martjackstorage.blob.core.windows.net/in-resources/166a6316-05dd-4978-9fb3-d23db157ffca/Images/userimages/ft_visa_img.png" /></span></p>
+<p class="paymenttwo"><span><img border="0" src="//martjackstorage.blob.core.windows.net/in-resources/166a6316-05dd-4978-9fb3-d23db157ffca/Images/userimages/ft_discover_img.png" /></span> <span><img border="0" src="//martjackstorage.blob.core.windows.net/in-resources/166a6316-05dd-4978-9fb3-d23db157ffca/Images/userimages/ft_netbanking_img.png" /></span> <span><img border="0" src="//martjackstorage.blob.core.windows.net/in-resources/166a6316-05dd-4978-9fb3-d23db157ffca/Images/userimages/ft_paytm_img.png" /></span></p>
+
+            </div>
+            <div class="col-md-2">
+                <h5 class="text-md-right"></h5>
+                <hr>
+            </div>
+            <div class="col-md-4">
+            	<h5><i class="text-white">VideoAboutit</i></h5>
+                <form>
+                    <video width="300" height="200" controls autoplay muted>
+                      <source src="{% static 'images/vedio.mp4' %}" type="video/mp4">
+                    </video>
+                </form>
+            </div>
+            
+  <div class="copyrights">
+  	<div class="copyrightsmain">
+    <p>@2021 CelectMobile. All Rights Reserved</p>
+	</div>
+</div>
+   </div>
+</footer>
+
+{% endblock %}
